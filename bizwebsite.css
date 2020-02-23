@@ -1,0 +1,57 @@
+body {
+	font-family: tahoma;
+	text-align: center;
+}
+header {
+	color: white;
+	background-color: royalblue;
+	letter-spacing: 6px;
+	padding: 20px;
+}
+h2 {
+	font-size: 2em width 100%;
+}
+section {
+	padding: 30px;
+	margin-bottom: 40px;
+}
+.card {
+	border: 1px solid #ccc;
+	background-color: ivory;
+	margin: 25px;
+	padding: 25px;
+	box-shadow: 6px 6px 6px rgba(0,0,0,0.3);
+}
+@media screen and (min-width: 50em) {
+	.card {
+		flex-basis: 325px;
+	}
+	header h1 {
+		font-size: 5em;
+	}
+}
+.icons {
+	font-size: 8em;
+	padding: 25px;
+}
+button, .button {
+	background: royalblue;
+	border: 0;
+	color: white;
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.bluecontainer {
+	background: teal;
+}
+td {
+	padding: 10px;
+}
+table {
+	margin:auto;
+}
+#my-order {
+	background-color: #29C1C4;
+	padding: 25px;
+}

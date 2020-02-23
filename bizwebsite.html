@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bizwebsite.css">
+	<title>bizwebsite</title>
+</head>
+<body>
+	<header>
+		<h1>SnackCheese Confectioneries</h1>
+		<h4>Cute cupcakes for Best Besties</h4>
+	</header>
+	<section class="">
+		<h2>WELCOME:</h2>
+		<section class="container">
+			<h2>
+				SERVICES://
+			</h2>
+			<article class="card">
+				<div class="icons">&#10084;</div>
+				<h3><p>Mr Clems</p>
+					<button>Contact</button>
+				</h3>
+			 </article>
+			<article class="card"> 
+				<div class="icons">&#10084;</div>
+				<h3><p>Jnr. Web Developer - Creates simple, beautiful websites for buisnesses in Lagos Nigeria.</p>
+				<button>Contact</button>
+				</h3>
+			</article>
+		</section>
+		<section class="bluecontainer">
+			<h2> MY ORDER FORM: </h2>
+			<form id="my-form">
+				<table>
+				<tr>
+					<td>Name: </td>
+					<td><input type="text" size="25" name="my-name"></td>
+				</tr>
+
+				<tr>
+					<td>Address: </td>
+					<td><input type="text" size="25" name="my-address"></td>
+				</tr>
+
+				<tr>
+					<td>Favourite drink: </td>
+					<td>
+						<select name="my-drink">
+							<option>Milk</option>
+							<option>Coffee</option>
+							<option>Tea</option>
+						</select>
+					</td>
+				</tr>
+
+				<tr>
+					<td>Quantity: </td>
+					<td>
+						<input type="number" name="my-qty" value="1" min="1" max="5">
+						<small>(max 5)</small>
+					</td> <br>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<input class="button" type="button" value="Process Order"
+						onclick="placeOrder();" >
+					<input class="button" type="reset" value="Clear">
+					</td>
+					
+				</tr>
+			</table> <br>
+			<div id="my-order"></div>
+			</form>
+			
+		</section>
+		<p>VISION: To create beautiful cupcakes for clients in Lagos, Nigeria.</p> <br> <br>
+		<section>
+		<p>ABOUT US: Founded in 2018, by Mr Clems. <br> We've served over 100 clients and delivered over 10,000 tasty treats.</p>
+		</section>
+		
+	</section>
+
+<script src="bizwebsite.js"></script>
+</body>
+</html>

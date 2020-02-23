@@ -1,0 +1,45 @@
+header {
+	background: lightblue;
+	border: solid blue;
+	border-width: 10px 0px 10px 0px;
+	margin: 0 auto;
+	text-align: center;
+}
+h1 {
+	font-size: 3em;
+}
+.circle {
+height: 250px;
+width: 250px;
+background: url(logo.jpg) 50px;
+border-radius: 50%;
+border: 10px solid white;
+display: inline-block;
+background-size: 300px;
+}
+
+body {
+	background: #ffcc00;
+	font-family: helvetica, arial, san-serif;
+	padding: 14px;
+	margin: 12px
+	
+}
+h3, {
+	background-color: #ce54c7;
+	padding:15px;
+	font-size: 1.5em;
+	border-left: 10px solid #d65d5cd;
+}
+header, h3 {
+	color:white;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+p, ul {
+	padding-left: 50px;
+	font-size: 1.3em;
+	list-style: none;
+}
+.emoji {
+	font-size: 8em;
+}
